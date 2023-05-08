@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url(../img/pexels-alleksana-4186045.jpg);
+  height: 200px;
+  width: 100%;
+  background-position: 123% 127%;
+}
