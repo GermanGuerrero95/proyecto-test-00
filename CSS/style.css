@@ -1,11 +1,42 @@
+:root {
+  --primario: #002333;
+  --secundario: #159a9c;
+  --tercerColor: #deefe7;
+  --blanco: #fff;
+  --negro: #111111;
+  --gris: #343a40;
+}
 * {
   margin: 0;
   padding: 0;
 }
 
 .header {
-  background: url(../img/pexels-alleksana-4186045.jpg);
+  background-image: url(..img/echeverria.jpg);
   height: 200px;
   width: 100%;
-  background-position: 123% 127%;
+  padding: 2rem 4rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-position: 149% 62%;
+}
+
+.nav-ul {
+  margin: 8rem 2rem;
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+.nav-li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nav-li a:hover {
+  background-color: #5350502a;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
 }
